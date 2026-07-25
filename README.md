@@ -19,6 +19,16 @@ concentrated, and what is it costing us?
 Olist Brazilian e-commerce, ~100k orders, 2016–2018. 9 tables, Postgres.
 
 ## Findings
+
+| segment | avg days |
+|---|---|
+| Seller handling | 3.23 |
+| Carrier transit | 9.33 |
+
+| | orders | avg handling | avg transit |
+|---|---|---|---|
+| Late | 7,822 | 5.84 | 25.68 |
+| On time | 88,482 | 3.00 | 7.89 |
 <img width="512" height="117" alt="image" src="https://github.com/user-attachments/assets/dbdbe1ab-0af1-4a72-ba87-0ef62561a810" />
 
 **H1 - false** Handling averages 9.33 days vs 3.23 on the seller side, roughly ~3x 
