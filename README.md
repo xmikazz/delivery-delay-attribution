@@ -19,7 +19,7 @@ concentrated, and what is it costing us?
 Olist Brazilian e-commerce, ~100k orders, 2016–2018. 9 tables, Postgres.
 
 ## Findings
-_TBD_
+**H1 - false** Handling averages 9.33 days vs 3.23 on the seller side, roughly ~3x 
 
 ## Recommendation
 _TBD_
