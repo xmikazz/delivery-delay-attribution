@@ -29,6 +29,8 @@ Olist Brazilian e-commerce, ~100k orders, 2016–2018. 9 tables, Postgres.
 |---|---|---|---|
 | Late | 7,822 | 5.84 | 25.68 |
 | On time | 88,482 | 3.00 | 7.89 |
+
+
 **H1 - false** Handling averages 9.33 days vs 3.23 on the seller side, roughly ~3x 
 Both segments degrade when an order goes late, but transit blows up far harder. Handling adds ~2.8 extra days; transit adds ~17.8. Transit contributes roughly 86% of the excess days on late orders.
 
