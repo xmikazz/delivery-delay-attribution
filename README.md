@@ -1,1 +1,25 @@
-# delivery-delay-attribution
+# Delivery Delay Attribution
+
+**Question:** Late deliveries are hurting reviews and repeat purchase.
+Is the failure seller handling or carrier transit, where is it
+concentrated, and what is it costing us?
+
+**Stakeholder:** Logistics ops lead at a marketplace with no owned fleet.
+
+## Hypotheses
+- **H1** — Handling time (purchase → carrier handover) accounts for more
+  than half of total late days, more than transit does.
+  *If true:* seller SLA enforcement, not 3PL renegotiation.
+- **H2** — Cross-state orders are late ~2× more often than same-state.
+  *If true:* distance-adjusted delivery promises.
+- **H3** — Late orders score ~2 points lower and cut repeat purchase ~20%.
+  *If true:* quantifies the budget ceiling for any fix.
+
+## Data
+Olist Brazilian e-commerce, ~100k orders, 2016–2018. 9 tables, Postgres.
+
+## Findings
+_TBD_
+
+## Recommendation
+_TBD_
