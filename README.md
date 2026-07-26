@@ -35,12 +35,12 @@ Splitting by whether the order beat its promised date:
 | On time | 88,482 | 3.00 | 7.89 |
 
 Both segments degrade on late orders, but transit accounts for ~86% of
-the excess days. The lever is the carrier, not seller SLA enforcement —
-the opposite of what H1 predicted.
+the excess days. The lever is the carrier, not seller SLA enforcement.
+This is the opposite of what H1 predicted.
 
 **It's a tail problem, not a slow network.** 2,467 of 7,822 late orders
 (32%) spent over 30 days in transit; worst was 205 days. Most orders move
-fine — a subset gets stuck.
+fine; a subset gets stuck.
 
 **And it's geographic.** Late rate by destination state:
 
