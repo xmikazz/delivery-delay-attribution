@@ -69,11 +69,6 @@ stuck parcels are cross-state parcels.
 **Scoping note:** 1.3% of orders involve multiple sellers; the first
 item's seller was taken as representative.
 
-**Further work:** "cross-state" is a crude distance proxy — SP→RJ and
-SP→AM are both "cross" at 400km and 3,000km respectively. The
-`geolocation` table has lat/long per zip prefix, so true haversine
-distance banding would sharpen this materially. Scoped out for time.
-
 Northeast states fail 2-4× more often than São Paulo and take twice as
 long when they do. RJ is the priority: high volume *and* high failure rate.
 
