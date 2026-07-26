@@ -52,6 +52,28 @@ fine; a subset gets stuck.
 | RJ | 12,331 | 1,664 | 13.5% | 31.3 |
 | SP | 40441 | 2384 | ~6% | 15.2 |
 
+### H2 — partially confirmed
+
+Predicted cross-state orders would be late ~2× more often. Actual: 1.53×.
+
+| | orders | late | late rate | avg transit when late |
+|---|---|---|---|---|
+| Cross-state | 61,650 | 5,721 | 9.3% | 30.1 |
+| Same-state | 34,654 | 2,101 | 6.1% | 13.6 |
+
+Distance has a modest effect on *whether* an order is late, but a large
+one on *how badly*: cross-state late orders take 2.2× longer in transit
+than same-state ones. This is consistent with H1's tail finding — the
+stuck parcels are cross-state parcels.
+
+**Scoping note:** 1.3% of orders involve multiple sellers; the first
+item's seller was taken as representative.
+
+**Further work:** "cross-state" is a crude distance proxy — SP→RJ and
+SP→AM are both "cross" at 400km and 3,000km respectively. The
+`geolocation` table has lat/long per zip prefix, so true haversine
+distance banding would sharpen this materially. Scoped out for time.
+
 Northeast states fail 2-4× more often than São Paulo and take twice as
 long when they do. RJ is the priority: high volume *and* high failure rate.
 
