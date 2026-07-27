@@ -69,6 +69,36 @@ stuck parcels are cross-state parcels.
 **Scoping note:** 1.3% of orders involve multiple sellers; the first
 item's seller was taken as representative.
 
+### H3 — part confirmed, part falsified
+
+**Late delivery damages reviews — decisively.**
+
+| | orders | avg review score |
+|---|---|---|
+| On time | 88,002 | 4.29 |
+| Late | 7,657 | 2.56 |
+
+A 1.73-point drop on a 5-point scale. Late orders fall from satisfied to
+dissatisfied.
+
+**But it does not measurably cost repeat purchase.**
+
+| | orders | repeat | repeat rate |
+|---|---|---|---|
+| On time | 88,482 | 2,907 | 3.29% |
+| Late | 7,822 | 210 | 2.68% |
+
+Predicted a 20% relative drop. The relative gap is roughly that, but the
+base rate is the real story: Olist retains ~3% of customers regardless.
+There is almost no repeat business to lose, so lost-repeat-revenue cannot
+justify logistics spend here.
+
+**Implication.** The original plan — price lateness in lost repeat
+revenue — doesn't survive the data. The cost has to be argued on
+different grounds: public review scores as an acquisition asset, seller
+churn from poor delivery ratings, and the direct operational cost of the
+32% of late orders that exceed 30 days in transit.
+
 Northeast states fail 2-4× more often than São Paulo and take twice as
 long when they do. RJ is the priority: high volume *and* high failure rate.
 
